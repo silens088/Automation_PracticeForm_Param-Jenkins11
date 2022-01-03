@@ -1,11 +1,13 @@
 package vitalii.qa;
 
 import io.qameta.allure.Owner;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static vitalii.qa.TestData.randomEmail;
 
+@Disabled
 public class PracticeFormTests extends TestBase {
 
     @Owner("velichkovv")

@@ -1,8 +1,10 @@
 package properties;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Disabled
 public class SystemPropertiesTests {
 
     //Это один из механизмов передать что-то из вне.
