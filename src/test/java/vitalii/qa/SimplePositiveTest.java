@@ -1,13 +1,15 @@
-package simple;
+package vitalii.qa;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Tag("simple")
 @DisplayName("tests for example")
 
-public class PositiveTest {
+public class SimplePositiveTest {
 
     @Test
     void test0() {
